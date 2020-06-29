@@ -5,7 +5,7 @@
 - 在物理专业的同学眼里，向量是一个有大小和方向的箭头（有向线段）。而这个有向线段是可以四处移动的，
 无论是在二维平面还是我们生活的三维空间里。
 
-![vector_physics](/linearAlgebra/whatIsVector/vector_physics.jpg)
+![vector_physics](/linearAlgebra/whatIsVector/vector_physics.png)
 
 - 在计算机专业同学的眼里，向量则是一组排列好的数字。在这种情况下，
 向量通常是表格的一种花哨的说法。
