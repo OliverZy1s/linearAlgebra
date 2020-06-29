@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /abstract.jpg
-heroText: 线性代数
+heroText: 线性代数的本质
 tagline: 3Blue1Brown的线性代数文档
 actionText: 快速上手 →
 actionLink: /document/whatIsVector.md

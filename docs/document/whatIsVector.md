@@ -5,17 +5,17 @@
 - 在物理专业的同学眼里，向量是一个有大小和方向的箭头（有向线段）。而这个有向线段是可以四处移动的，
 无论是在二维平面还是我们生活的三维空间里。
 
-![vector_physics](/vector_physics.jpg)
+![vector_physics](/linearAlgebra/whatIsVector/vector_physics.jpg)
 
 - 在计算机专业同学的眼里，向量则是一组排列好的数字。在这种情况下，
 向量通常是表格的一种花哨的说法。
 
-![vector_computer](/vector_computer.png)
+![vector_computer](/linearAlgebra/whatIsVector/vector_computer.png)
 
 - 而数学专业的同学，则尝试统一这两种说法，把只要这种定义满足**相加与数乘**这两种性质，那它就是向量。
 在这里对于这两种性质的具体细节可能有点抽象。不过到这节的最后你肯定能明白。
 
-![vector_math](/vector_math.png)
+![vector_math](/linearAlgebra/whatIsVector/vector_math.png)
 
 ## 向量的定义
 
@@ -27,7 +27,7 @@
 而这个有向线段的尾部是固定在原点的。同时可以用线段尖的坐标表示向量。坐标中的第一个数表示了向x轴移动的距离，
 第二个数表示了向y轴移动的距离。
 
-![vector_def_2d](/vector_def_2d.png)
+![vector_def_2d](/linearAlgebra/whatIsVector/vector_def_2d.png)
 
 ::: tip 提示
 这可能与物理专业的同学想的不太一样，通常在物理里，向量的起点可以任意变化。
@@ -40,7 +40,7 @@
 而这个有向线段的尾部是固定在原点的。同时可以用线段尖的坐标表示向量。坐标中的第一个数表示了向x轴移动的距离，
 第二个数表示了向y轴移动的距离，第三个数表示了向y轴移动的距离。
 
-![vector_def_3d](/vector_def_3d.png)
+![vector_def_3d](/linearAlgebra/whatIsVector/vector_def_3d.png)
 
 ## 向量加减与数乘
 
@@ -52,7 +52,7 @@
 
 我们有向量 $\vec{v}$ 和 $\vec{w}$，把 $\vec{w}$ 的尾部移到 $\vec{v}$ 的向量尖，这样新得到的向量就被定义为 $\vec{v}+\vec{w}$。
 
-![vector_add_geo](/vector_add_geo.png)
+![vector_add_geo](/linearAlgebra/whatIsVector/vector_add_geo.png)
 
 ::: tip 提示
 我们在之前提到说线性代数里一般向量的尾部都固定在原点，这可能是唯一一种尾部离开原点的情况。
@@ -63,7 +63,7 @@
 我们可以把每个向量看出一种“动作”，而两个向量相加就是这两个“动作“的和。不妨看下我们是如何定义数字的加法的，
 2+5其实就是像右移动两个单位加上向右移动五个个单位。而这其中总的结果就是向右移动七个单位。
 
-![number_add](/number_add.png)
+![number_add](/linearAlgebra/whatIsVector/number_add.png)
 
 #### 代数上加减的表示
 
@@ -72,7 +72,7 @@
 
 同时我们也可以两个向量横坐标的作用和纵坐标的作用统一看，也就是向右移（3+1）个单位，向上移（2+（-1））个单位。
 
-![vector_add_alg](/vector_add_alg.png)
+![vector_add_alg](/linearAlgebra/whatIsVector/vector_add_alg.png)
 
 ### 向量数乘
 
@@ -81,7 +81,7 @@
 现在另一种向量的基本运算是数乘，它的意思就是向量乘上一个常数。再几何上很好理解，就是原有的向量拉伸或者压缩。
 比如 $2\vec{v}$ 代表的意思就是将原有的向量拉伸为原来的两倍。
 
-![vector_sca_geo](/vector_sca_geo.png)
+![vector_sca_geo](/linearAlgebra/whatIsVector/vector_sca_geo.png)
 
 ::: tip 提示
 同时乘上一个负数也是一样的道理，只不过我们需要反向向量的方向。
@@ -92,7 +92,7 @@
 同时在坐标上数乘的表示也很清晰，我们只需要将向量的每个坐标都乘上那个常数就行了
 （我们把那个乘上的常数叫做**标量**）。
 
-![vector_sca_alg](/vector_sca_alg.png)
+![vector_sca_alg](/linearAlgebra/whatIsVector/vector_sca_alg.png)
 
 ## 小结
 
