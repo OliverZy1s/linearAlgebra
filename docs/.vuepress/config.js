@@ -1,6 +1,6 @@
 module.exports = {
     base: '/linearAlgebra/',
-    title: '线性代数',
+    title: '3blue1brown的线性代数讲义',
     description: '开始学习线性代数吧！',
     head: [
         ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css' }],
@@ -11,7 +11,8 @@ module.exports = {
             {
                 title: '线性代数的本质',
                 children: [
-                    '/document/whatIsVector'
+                    '/document/whatIsVector',
+                    '/document/linearComSpanBasis'
                 ],
             }
         ],
